@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="sl">
+	<head>
+		<meta charset="utf-8">
+		<title>Zdravniška zbornica</title>
+		<link rel="stylesheet" href="assets/stylesheets/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Dosis|Lato|Open+Sans:300" rel="stylesheet">
+	</head>
+  <body>
+  
+<!-- Header --> 
+  
+  <header class="primary-header container group">  
+		<h1 class="logo">
+			<a href="index.html">lorem<br>ipsum</a>
+		</h1>
+	
+		<h3 class="tagline">Dnevi zdravnikov: 24&ndash;26 August; Celje, SI</h3>       
+			
+		<nav class="nav primary-nav">
+		 <ul>
+			<li><a href="index.html">Domov</a></li><!--
+			--><li><a href="storitve.html">Storitve</a></li><!--
+			--><li><a href="lokacija.html">Lokacija</a></li><!--
+			--><li><a href="delovniCas.html">Delovni čas</a></li><!--
+			--><li><a href="eVloga.html">E-vloga</a></li>
+		 </ul>		
+		</nav>
+  </header>
+  
+  <!-- Lead -->
+
+    <section class="row-alt">
+      <div class="lead container">
+        <h1>Elektronska prijava na seminar</h1>
+        <p>Kot strokovnjak na svojem področju ali kot znanja željni udeleženec vas vabimo, da se nam pridružite na prvem tridnevnem elitnem dogodku. Cena udeležbe znaša samo 1.489€ za člane in 2.290€ za nečlane. Znesek kotizacije vključuje seminarje, delavnice, organizirane oglede, prenočišče z zajtrkom in večerjo.</p>
+      </div>
+	</section>
+
+	<section class="row">
+		<div class="grid">
+		
+		  <section class="col-2-3">
+			<h2>Rezervirajte si udeležbo</h2>
+			<h5>Cena kotizacije je 1.489€ za člane in 2.290€ za nečlane zdravniške zbornice</h5>
+			<p>Udeležbo si rezervirate s tem, da izpolnite obrazec na desni. Rezervacijo za več oseb lahko oddate z enim naročilom. Po oddaji naročila boste prejeli potrdilo o prejemu rezervacije.</p>  
+			
+			<h4>Zakaj se udeležiti seminarja</h4>
+			<ul class="why-attend">
+			  <li>What is Lorem Ipsum...</li>
+			  <li>Why do we use it...</li>
+			  <li>Where does it come from...</li>
+			  <li>Where can I get some...</li>
+			</ul>
+			<h4>Program seminarja</h4>
+			<p>Program tridnevnega seminarja pridobite s klikom na spodnjo povezavo:</p>
+			<a class="btn btn-default btn-program" href="eProgram.html">Program</a>
+		  </section><!--
+			
+		  --><form class="col-1-3" action="#" method="post">
+			<fieldset class="registracija-seminar">
+				<label>
+				Ime in priimek
+					<input type="text" name="name" placeholder="vpiši ime in priimek..." required>
+				</label>
+				
+				<label>
+				Email
+					<input type="email" name="email" placeholder="vpiši svoj email..." required>
+				</label>
+				
+				<label>
+					Število udeležencev
+					<select name="steviloUdelezencev" required>
+					  <option value="1" selected>1</option>
+					  <option value="2">2</option>
+					  <option value="3">3</option>
+					  <option value="4">4</option>
+					  <option value="5">5</option>
+					</select>
+				</label>
+				
+				<label>
+					Kometar
+					<textarea name="komentar"></textarea>
+				</label>
+			</fieldset>
+			
+			<input class="btn btn-default" type="submit" name="submit" value="Rezerviraj">
+		  </form>
+			
+		</div>
+    </section>
+	
+    <section class="row-alt">
+      <div class="lead container">	
+		<h1>Elektronska vloga za članstvo v Zdravniškem društvu</h1>
+		<p>V kolikor bi se želeli včlaniti v Zdravniško društvo in tako koristiti številne ugodnosti, izpolnite elektronsko vlogo tukaj:</p>
+	  </div>
+    </section>
+	
+	<section class="row">
+		<div class="grid">
+		
+			<section class="col-2-3">
+			<h2>Postanite član Zdravniškega društva</h2>
+			<h5>Cena članarine znaša 499 € na leto.</h5>
+			<p>V kolikor želite postati naš član, izpolnite obrazec na levi in izkoristite številne ugodnosti, ki vam jih članstvo prinaša.</p>  
+			
+			<h4>Ugodnosti članstva so:</h4>
+			<ul class="ugodnosti">
+			  <li>What is Lorem Ipsum...</li>
+			  <li>Why do we use it...</li>
+			  <li>Where does it come from...</li>
+			  <li>Where can I get some...</li>
+			</ul>
+			</section><!--
+			
+			--><form class="col-1-3">
+			  <fieldset class="registracija-clan">
+			  
+				<label>
+				Ime in priimek
+					<input type="text" name="name" placeholder="vpiši ime in priimek..." required>
+				</label>
+				
+				<label>
+				Datum rojstva
+					<input type="date" name="birthday" placeholder="vpiši datum rojstva..." required>
+				</label>
+				
+				<label>
+				Naslov
+					<input type="text" name="address" placeholder="ulica, hišna št." required>
+				</label>
+				
+				<label>
+				Kraj
+					<input type="text" name="address" placeholder="poštna št., kraj" required>
+				</label>
+				
+				<label>
+				Email
+					<input type="email" name="email" placeholder="vpiši svoj email..." required>
+				</label>
+				
+				<label>
+					Kometar
+					<textarea name="komentar"></textarea>
+				</label>
+			  </fieldset>
+			
+			<input class="btn btn-default" type="submit" name="submit" value="Pošlji vlogo">
+			</form>
+			
+		</div>
+    </section>
+  
+<!-- Footer -->  
+
+   <footer class="primary-footer container group">
+	<small class="col-1-3">&copy; Zdravniška zbornica</small><!--
+	
+	--><nav class="col-1-3 navFooter" >
+		<ul>
+			<li><a href="index.html">Domov</a></li><!--
+			--><li><a href="storitve.html">Storitve</a></li><!--
+			--><li><a href="lokacija.html">Lokacija</a></li><!--
+			--><li><a href="delovniCas.html">Delovni čas</a></li><!--
+			--><li><a href="eVloga.html">E-vloga</a></li>
+		</ul>
+	</nav><!--
+		
+	--><a href="lokacija.html"><address class="col-1-3">
+	Zdravniško društvo<br>
+	Zdraviliški trg 15<br>
+	3250 Rogaška Slatina<br>
+	Tel: 031 225 658
+	</address><a/>
+		
+  </footer>
+  
+  </body>
+</html>
